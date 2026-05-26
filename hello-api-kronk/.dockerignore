@@ -1,0 +1,6 @@
+.git
+.gitignore
+kronk-example
+*.log
+.DS_Store
+kronk-data

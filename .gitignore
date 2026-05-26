@@ -1,0 +1,49 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local notes
+README..md
+
+# Go build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+bin/
+build/
+
+# Local binaries created during experiments
+hello-api-kronk/hello-api-kronk
+hello-api-kronk/preload
+lambda-api-kronk/lambda-api-kronk
+lambda-api-kronk/preload
+
+# Kronk local data
+kronk-data/
+hello-api-kronk/kronk-data/
+lambda-api-kronk/kronk-data/
+
+# Go workspace / vendoring
+vendor/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Docker / local image build noise
+docker-buildx-cache/
+
